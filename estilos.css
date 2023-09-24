@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-  font-size: 62px;
+  font-size: 30px;
 }
 
 header {
@@ -32,7 +32,8 @@ header img {
 
 header span {
   color: red;
-  font-size: 120em;
+  //font-size: 120em;
+  font-size: 10em;
   font-weight: bold;
 }
 
@@ -58,9 +59,13 @@ nav ul li a:hover {
 }
 
 footer {
-  background-color: #5cd2e6;
+  background-color: #38Ef4D;
   text-align: center;
   padding: 10px;
+  margin-top: 350px;
+  width: 100%;
+  position: relative;
+  border-top: 1px;
 }
 
 /* Breadcrumb */
@@ -74,7 +79,7 @@ footer {
 
 .breadcrumb li {
   display: inline;
-  font-size: 18px;
+  font-size: 30px;
   list-style-type: square;
 }
 
@@ -84,7 +89,8 @@ footer {
 }
 
 .breadcrumb li.last-child::after {
-  content: "";
+  content: "   ";
+  padding: 0px 10px;
 }
 
 .shadow-drop-center {
@@ -102,6 +108,7 @@ footer {
 .title {
   display: flex; /* Usa flexbox para alinear elementos horizontalmente */
   align-items: center; /* Centra verticalmente los elementos */
+  justify-content: center;
 }
 
 .title span {
@@ -109,5 +116,13 @@ footer {
 }
 
 .logo {
-  margin-left: 10px; /* Agrega un espacio entre las imágenes */
+  background-color: #3085C3;
+  margin-left: 50px; /* Agrega un espacio entre las imágenes */
+  align-items: left;
 }
+
+.logo_traisix {
+   margin-right: 10px;  /* Agrega un espacio entre las imágenes */
+   align-items: right; 
+}
+
